@@ -1,0 +1,160 @@
+Skip to content
+Your account has been flagged.
+Because of that, your profile is hidden from the public. If you believe this is a mistake, contact support to have your account status reviewed.
+
+universe gameboard
+Repositories0
+Code3K
+Commits1
+Issues3
+Marketplace0
+Topics0
+Wikis4
+Users0
+Language
+
+Sort
+
+3,604 code results
+@Eibwen
+Eibwen/Ai-Challenge-2010-PlanetWars – botDebug.cs
+Showing the top four matches
+Last indexed on Jun 26, 2018
+C#
+	public class botDebug : botDebugBase
+	{
+		Universe gameboard;
+		public override void Reset()
+		{
+			Universe.Reset();
+		/// <param name="gameData">The game data.</param>
+		public override void CreateGameBoardInstance()
+		{
+			gameboard = new Universe(GameBoardData, this);
+@OasisIsGood
+OasisIsGood/algame – ZeldaGameLevel.java
+Showing the top five matches
+Last indexed on Jun 30, 2018
+Java
+		universe = new GameZeldaUniverseDefaultImpl(moveBlockerChecker,
+				overlapProcessor);
+		overlapRules.setUniverse(universe);
+
+		gameBoard = new GameUniverseViewPortDefaultImpl(canvas, universe);
+		((GameUniverseViewPortDefaultImpl) gameBoard)
+				.setBackground("images/background/background_image_zelda2.gif");
+@jihadmahdi
+jihadmahdi/space-empire-pulsar – SwingUniverseRenderer.java
+Showing the top four matches
+Last indexed on Jul 1, 2018
+Java
+	private PlayerGameBoard gameboard = null;
+
+	////////// no arguments constructor
+	public SwingUniverseRenderer()
+	{
+		build = SwingJavaBuilder.build(this);
+		IGameConfig config = gameboard.getConfig();		
+		
+		//if (universeViewPanel.getComponentCount() == 0)		
+		if (!zSlider.isEnabled())
+@NguyenBaoXuanTruong
+NguyenBaoXuanTruong/Pacman – PacmanGameLevelDefault.java
+Showing the top five matches
+Last indexed on Jul 8, 2018
+Java
+	protected void init() {
+		gameBoard = new PacmanGameBoard(canvas);
+		world = new WorldDefault(gameBoard, obstacleChecker);
+		universe = new UniverseDefault(world, gameBoard, collisionChecker);
+@AbrahamAlcaina
+AbrahamAlcaina/LifeGame – Universe.cs
+Showing the top three matches
+Last indexed on Jun 27, 2018
+C#
+// --------------------------------------------------------------------------------------------------------------------
+// <copyright file="Universe.cs" company="Abraham Alcaina">
+//   AAA Code
+        ///     Initializes a new instance of the <see cref="Universe" /> class.
+        /// </summary>
+        /// <param name="gameboardConstructor">
+@gojupiter
+gojupiter/M2_Design_Pattern – PacmanGameLevelDefault.java
+Showing the top five matches
+Last indexed on Jun 26, 2018
+Java
+	protected void init() {
+		gameBoard = new PacmanGameBoard(canvas);
+		world = new WorldDefault(gameBoard, obstacleChecker);
+		universe = new UniverseDefault(world, gameBoard, collisionChecker);
+@qpoussie
+qpoussie/GameFrameworkUB1 – GameLevelLinkImpl.java
+Showing the top five matches
+Last indexed on Jun 27, 2018
+Java
+ * To be implemented with respect to a specific game. Expected to initialize the
+ * universe and the gameBoard
+ */
+
+public abstract class GameLevelLinkImpl extends Thread implements GameLevel {
+			start = new Date().getTime();
+			gameBoard.paint();
+			universe.allOneStepMoves();
+			universe.processAllOverlaps();
+@Eibwen
+Eibwen/Ai-Challenge-2010-PlanetWars – botDebug.cs
+Showing the top three matches
+Last indexed on Jun 26, 2018
+C#
+	/// <summary>
+	/// DebugginPlugin
+	/// </summary>
+	public class botDebug : botDebugBase
+	{
+		Universe gameboard;
+		/// Initializes a new instance of the <see cref="botDebug"/> class.
+		/// </summary>
+		public botDebug()
+		{
+			BotEnvironment.DUMP_MAP = false;
+			gameboard = new Universe(this);
+@valcol
+valcol/BattleCraft – GameLevelDefaultImpl.java
+Showing the top four matches
+Last indexed on Jul 6, 2018
+Java
+ * To be implemented with respect to a specific game. Expected to initialize the
+ * universe and the gameBoard
+ */
+
+public abstract class GameLevelDefaultImpl extends Thread implements GameLevel {
+	protected GameUniverseViewPort gameBoard;
+
+	protected ObservableValue<Integer> score[];
+	protected ObservableValue<Integer> life[];
+@simharry3
+simharry3/Parallel_Computing – assignment3.c
+Showing the top four matches
+Last indexed on Jul 6, 2018
+C
+        start = MPI_Wtime();
+    }
+    int** gameBoard = NULL;
+
+    universeCheckpoint = calloc(HEIGHT, sizeof(int*));
+    for(int i = 0; i < HEIGHT; ++i){
+        if(i % CHECKPOINT_INTERVAL == 0){
+            writeCheckpoint(&gameBoard, &universeCheckpoint, mpi_myrank, HEIGHT/mpi_commsize);
+© 2019 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Press h to open a hovercard with more details.
